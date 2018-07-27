@@ -15,6 +15,8 @@ public class User{
     private String sex;
     private double latitude;
     private double longitude;
+    private String location;
+    private String sign;
 
     public Long getId() {
         return id;
@@ -70,5 +72,21 @@ public class User{
 
     public void setLongitude(double longitude) {
         this.longitude = longitude;
+    }
+
+    public String getLocation() {
+        return location;
+    }
+
+    public void setLocation(String location) {
+        this.location = location;
+    }
+
+    public String getSign() {
+        return sign;
+    }
+
+    public void setSign(String sign) {
+        this.sign = sign;
     }
 }
